@@ -67,16 +67,9 @@
 }
 
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-
 #pragma mark - UITableViewDelegate & UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    // Return the number of rows in the section.
     return [dataArr count];
 }
 
@@ -88,18 +81,18 @@
     
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
-        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+
         
-        /*
+
          //无色
-         cell.selectionStyle = UITableViewCellSelectionStyleNone;
-         
+//         cell.selectionStyle = UITableViewCellSelectionStyleNone;
+        
          //蓝色
-         cell.selectionStyle = UITableViewCellSelectionStyleBlue;
-         
+//         cell.selectionStyle = UITableViewCellSelectionStyleBlue;
+        
          //灰色
          cell.selectionStyle = UITableViewCellSelectionStyleGray;
-         */
+
     }
     
     for (MyCell * sinacell in cell.contentView.subviews) {
