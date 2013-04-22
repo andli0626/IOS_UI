@@ -15,11 +15,6 @@
     self = [super initWithFrame:frame];
     if (self) {
         
-        //头像
-        _headImageView = [[UIImageView alloc] initWithFrame:CGRectMake(5, 5, 30, 30)];
-        _headImageView.backgroundColor = [UIColor blueColor];
-        [self addSubview:_headImageView];
-        
         //内容
         contentLabel = [[UILabel alloc] initWithFrame:CGRectZero];
         contentLabel.backgroundColor = [UIColor clearColor];
@@ -27,8 +22,7 @@
         [self addSubview:contentLabel];
         
         //气泡背景
-        _backgroudImageView = [[UIImageView alloc] initWithFrame:CGRectMake(35, 5, 280, 0)];
-        //        _backgroudImageView.frame = CGRectMake(35, 5, 280, 60);
+        _backgroudImageView = [[UIImageView alloc] initWithFrame:CGRectMake(5, 5, 280, 0)];
         [self addSubview:_backgroudImageView];
         [self sendSubviewToBack:_backgroudImageView];
         

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
+@interface MainView : UIViewController<UITableViewDelegate,UITableViewDataSource>
 {
     NSMutableArray * dataArr;
 }

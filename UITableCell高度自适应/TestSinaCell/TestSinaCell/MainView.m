@@ -6,30 +6,13 @@
 //  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 //
 
-#import "RootViewController.h"
+#import "MainView.h"
 #import "MyCell.h"
 #import "MyCellData.h"
 
-@implementation RootViewController
+@implementation MainView
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
-- (void)didReceiveMemoryWarning
-{
-    // Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
-    
-    // Release any cached data, images, etc that aren't in use.
-}
-
-#pragma mark - View lifecycle
 -(void)refreshData{
     MyCellData * data1 = [[MyCellData alloc] initWithText:@"有文字有图片短短短短短短短短短短短短短短短短短短短短短短短短短短短短短短"
                                                 CellImage:[UIImage imageNamed:@"headImage.png"]];
@@ -64,15 +47,15 @@
     [data6 release];
 }
 
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
+
 - (void)loadView
 {
     UIView * aView = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
-    aView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];
     self.view = aView;
     [aView release];
     
-    UITableView * myTabelView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, 320, 460) style:UITableViewStylePlain];
+    UITableView * myTabelView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, 320, 480-20)
+                                                             style:UITableViewStylePlain];
     myTabelView.dataSource = self;
     myTabelView.delegate = self;
     myTabelView.backgroundColor = [UIColor clearColor];
@@ -83,13 +66,6 @@
     
 }
 
-
-
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    
-}
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {

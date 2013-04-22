@@ -16,7 +16,7 @@
 		0F577DC01585A2D1002E5B88 /* kuang.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F577DBC1585A2D1002E5B88 /* kuang.png */; };
 		0F577DC11585A2D1002E5B88 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F577DBD1585A2D1002E5B88 /* background.png */; };
 		0F577DC21585A2D1002E5B88 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F577DBF1585A2D1002E5B88 /* MyCell.m */; };
-		0F577DC51585A2E1002E5B88 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F577DC41585A2E1002E5B88 /* RootViewController.m */; };
+		0F577DC51585A2E1002E5B88 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F577DC41585A2E1002E5B88 /* MainView.m */; };
 		0F577DCF1585A2FE002E5B88 /* HomePageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F577DC81585A2FE002E5B88 /* HomePageVC.m */; };
 		0F577DD01585A2FE002E5B88 /* HomePageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F577DCA1585A2FE002E5B88 /* HomePageTableViewController.m */; };
 		0F577DD11585A2FE002E5B88 /* MyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F577DCC1585A2FE002E5B88 /* MyDetailViewController.m */; };
@@ -40,8 +40,8 @@
 		0F577DBD1585A2D1002E5B88 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		0F577DBE1585A2D1002E5B88 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
 		0F577DBF1585A2D1002E5B88 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
-		0F577DC31585A2E1002E5B88 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		0F577DC41585A2E1002E5B88 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		0F577DC31585A2E1002E5B88 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		0F577DC41585A2E1002E5B88 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
 		0F577DC71585A2FE002E5B88 /* HomePageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageVC.h; sourceTree = "<group>"; };
 		0F577DC81585A2FE002E5B88 /* HomePageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageVC.m; sourceTree = "<group>"; };
 		0F577DC91585A2FE002E5B88 /* HomePageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageTableViewController.h; sourceTree = "<group>"; };
@@ -111,8 +111,8 @@
 			children = (
 				0F577DB01585A2B2002E5B88 /* _23AppDelegate.h */,
 				0F577DB11585A2B2002E5B88 /* _23AppDelegate.m */,
-				0F577DC31585A2E1002E5B88 /* RootViewController.h */,
-				0F577DC41585A2E1002E5B88 /* RootViewController.m */,
+				0F577DC31585A2E1002E5B88 /* MainView.h */,
+				0F577DC41585A2E1002E5B88 /* MainView.m */,
 				0FBBB5F71585B99700E70108 /* MyCellData.h */,
 				0FBBB5F81585B99700E70108 /* MyCellData.m */,
 				0F577DBE1585A2D1002E5B88 /* MyCell.h */,
@@ -217,7 +217,7 @@
 				0F577DAE1585A2B2002E5B88 /* main.m in Sources */,
 				0F577DB21585A2B2002E5B88 /* _23AppDelegate.m in Sources */,
 				0F577DC21585A2D1002E5B88 /* MyCell.m in Sources */,
-				0F577DC51585A2E1002E5B88 /* RootViewController.m in Sources */,
+				0F577DC51585A2E1002E5B88 /* MainView.m in Sources */,
 				0F577DCF1585A2FE002E5B88 /* HomePageVC.m in Sources */,
 				0F577DD01585A2FE002E5B88 /* HomePageTableViewController.m in Sources */,
 				0F577DD11585A2FE002E5B88 /* MyDetailViewController.m in Sources */,

@@ -7,7 +7,7 @@
 //
 
 #import "_23AppDelegate.h"
-#import "RootViewController.h"
+#import "MainView.h"
 @implementation _23AppDelegate
 
 @synthesize window = _window;
@@ -23,7 +23,7 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     
-    RootViewController * rootVC = [[RootViewController alloc] init];
+    MainView * rootVC = [[MainView alloc] init];
     self.window.rootViewController = rootVC;
     [rootVC release];
     
