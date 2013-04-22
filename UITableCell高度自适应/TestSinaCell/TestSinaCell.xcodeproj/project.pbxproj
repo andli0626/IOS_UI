@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F577DA21585A2B2002E5B88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F577DA11585A2B2002E5B88 /* UIKit.framework */; };
+		0F577DA41585A2B2002E5B88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F577DA31585A2B2002E5B88 /* Foundation.framework */; };
+		0F577DA61585A2B2002E5B88 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F577DA51585A2B2002E5B88 /* CoreGraphics.framework */; };
+		0F577DAC1585A2B2002E5B88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F577DAA1585A2B2002E5B88 /* InfoPlist.strings */; };
+		0F577DAE1585A2B2002E5B88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F577DAD1585A2B2002E5B88 /* main.m */; };
+		0F577DB21585A2B2002E5B88 /* _23AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F577DB11585A2B2002E5B88 /* _23AppDelegate.m */; };
+		0F577DC01585A2D1002E5B88 /* kuang.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F577DBC1585A2D1002E5B88 /* kuang.png */; };
+		0F577DC11585A2D1002E5B88 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F577DBD1585A2D1002E5B88 /* background.png */; };
+		0F577DC21585A2D1002E5B88 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F577DBF1585A2D1002E5B88 /* MyCell.m */; };
+		0F577DC51585A2E1002E5B88 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F577DC41585A2E1002E5B88 /* RootViewController.m */; };
+		0F577DCF1585A2FE002E5B88 /* HomePageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F577DC81585A2FE002E5B88 /* HomePageVC.m */; };
+		0F577DD01585A2FE002E5B88 /* HomePageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F577DCA1585A2FE002E5B88 /* HomePageTableViewController.m */; };
+		0F577DD11585A2FE002E5B88 /* MyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F577DCC1585A2FE002E5B88 /* MyDetailViewController.m */; };
+		0F577DD21585A2FE002E5B88 /* MYSinaWeiboScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F577DCE1585A2FE002E5B88 /* MYSinaWeiboScrollView.m */; };
+		0FBBB5F51585B95000E70108 /* headImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FBBB5F41585B95000E70108 /* headImage.png */; };
+		0FBBB5F91585B99700E70108 /* MyCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBBB5F81585B99700E70108 /* MyCellData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F577D9D1585A2B1002E5B88 /* TestSinaCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSinaCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F577DA11585A2B2002E5B88 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F577DA31585A2B2002E5B88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F577DA51585A2B2002E5B88 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F577DA91585A2B2002E5B88 /* TestSinaCell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestSinaCell-Info.plist"; sourceTree = "<group>"; };
+		0F577DAB1585A2B2002E5B88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F577DAD1585A2B2002E5B88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F577DAF1585A2B2002E5B88 /* TestSinaCell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestSinaCell-Prefix.pch"; sourceTree = "<group>"; };
+		0F577DB01585A2B2002E5B88 /* _23AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _23AppDelegate.h; sourceTree = "<group>"; };
+		0F577DB11585A2B2002E5B88 /* _23AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _23AppDelegate.m; sourceTree = "<group>"; };
+		0F577DBC1585A2D1002E5B88 /* kuang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kuang.png; sourceTree = "<group>"; };
+		0F577DBD1585A2D1002E5B88 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		0F577DBE1585A2D1002E5B88 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		0F577DBF1585A2D1002E5B88 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		0F577DC31585A2E1002E5B88 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		0F577DC41585A2E1002E5B88 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		0F577DC71585A2FE002E5B88 /* HomePageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageVC.h; sourceTree = "<group>"; };
+		0F577DC81585A2FE002E5B88 /* HomePageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageVC.m; sourceTree = "<group>"; };
+		0F577DC91585A2FE002E5B88 /* HomePageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageTableViewController.h; sourceTree = "<group>"; };
+		0F577DCA1585A2FE002E5B88 /* HomePageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageTableViewController.m; sourceTree = "<group>"; };
+		0F577DCB1585A2FE002E5B88 /* MyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDetailViewController.h; sourceTree = "<group>"; };
+		0F577DCC1585A2FE002E5B88 /* MyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDetailViewController.m; sourceTree = "<group>"; };
+		0F577DCD1585A2FE002E5B88 /* MYSinaWeiboScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYSinaWeiboScrollView.h; sourceTree = "<group>"; };
+		0F577DCE1585A2FE002E5B88 /* MYSinaWeiboScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYSinaWeiboScrollView.m; sourceTree = "<group>"; };
+		0FBBB5F41585B95000E70108 /* headImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headImage.png; sourceTree = "<group>"; };
+		0FBBB5F71585B99700E70108 /* MyCellData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCellData.h; sourceTree = "<group>"; };
+		0FBBB5F81585B99700E70108 /* MyCellData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCellData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F577D9A1585A2B1002E5B88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F577DA21585A2B2002E5B88 /* UIKit.framework in Frameworks */,
+				0F577DA41585A2B2002E5B88 /* Foundation.framework in Frameworks */,
+				0F577DA61585A2B2002E5B88 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F2D24F71587224700D2C6FF /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				0F577DBC1585A2D1002E5B88 /* kuang.png */,
+				0F577DBD1585A2D1002E5B88 /* background.png */,
+				0FBBB5F41585B95000E70108 /* headImage.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		0F577D921585A2B1002E5B88 = {
+			isa = PBXGroup;
+			children = (
+				0F577DA71585A2B2002E5B88 /* TestSinaCell */,
+				0F577DA01585A2B1002E5B88 /* Frameworks */,
+				0F577D9E1585A2B1002E5B88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F577D9E1585A2B1002E5B88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F577D9D1585A2B1002E5B88 /* TestSinaCell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F577DA01585A2B1002E5B88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F577DA11585A2B2002E5B88 /* UIKit.framework */,
+				0F577DA31585A2B2002E5B88 /* Foundation.framework */,
+				0F577DA51585A2B2002E5B88 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F577DA71585A2B2002E5B88 /* TestSinaCell */ = {
+			isa = PBXGroup;
+			children = (
+				0F577DB01585A2B2002E5B88 /* _23AppDelegate.h */,
+				0F577DB11585A2B2002E5B88 /* _23AppDelegate.m */,
+				0F577DC31585A2E1002E5B88 /* RootViewController.h */,
+				0F577DC41585A2E1002E5B88 /* RootViewController.m */,
+				0FBBB5F71585B99700E70108 /* MyCellData.h */,
+				0FBBB5F81585B99700E70108 /* MyCellData.m */,
+				0F577DBE1585A2D1002E5B88 /* MyCell.h */,
+				0F577DBF1585A2D1002E5B88 /* MyCell.m */,
+				0F2D24F71587224700D2C6FF /* Image */,
+				0F577DA81585A2B2002E5B88 /* Supporting Files */,
+				0F577DC61585A2E9002E5B88 /* test */,
+			);
+			path = TestSinaCell;
+			sourceTree = "<group>";
+		};
+		0F577DA81585A2B2002E5B88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F577DA91585A2B2002E5B88 /* TestSinaCell-Info.plist */,
+				0F577DAA1585A2B2002E5B88 /* InfoPlist.strings */,
+				0F577DAD1585A2B2002E5B88 /* main.m */,
+				0F577DAF1585A2B2002E5B88 /* TestSinaCell-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F577DC61585A2E9002E5B88 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				0F577DC71585A2FE002E5B88 /* HomePageVC.h */,
+				0F577DC81585A2FE002E5B88 /* HomePageVC.m */,
+				0F577DC91585A2FE002E5B88 /* HomePageTableViewController.h */,
+				0F577DCA1585A2FE002E5B88 /* HomePageTableViewController.m */,
+				0F577DCB1585A2FE002E5B88 /* MyDetailViewController.h */,
+				0F577DCC1585A2FE002E5B88 /* MyDetailViewController.m */,
+				0F577DCD1585A2FE002E5B88 /* MYSinaWeiboScrollView.h */,
+				0F577DCE1585A2FE002E5B88 /* MYSinaWeiboScrollView.m */,
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F577D9C1585A2B1002E5B88 /* TestSinaCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F577DB51585A2B2002E5B88 /* Build configuration list for PBXNativeTarget "TestSinaCell" */;
+			buildPhases = (
+				0F577D991585A2B1002E5B88 /* Sources */,
+				0F577D9A1585A2B1002E5B88 /* Frameworks */,
+				0F577D9B1585A2B1002E5B88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestSinaCell;
+			productName = TestSinaCell;
+			productReference = 0F577D9D1585A2B1002E5B88 /* TestSinaCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F577D941585A2B1002E5B88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0F577D971585A2B1002E5B88 /* Build configuration list for PBXProject "TestSinaCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F577D921585A2B1002E5B88;
+			productRefGroup = 0F577D9E1585A2B1002E5B88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F577D9C1585A2B1002E5B88 /* TestSinaCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F577D9B1585A2B1002E5B88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F577DAC1585A2B2002E5B88 /* InfoPlist.strings in Resources */,
+				0F577DC01585A2D1002E5B88 /* kuang.png in Resources */,
+				0F577DC11585A2D1002E5B88 /* background.png in Resources */,
+				0FBBB5F51585B95000E70108 /* headImage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F577D991585A2B1002E5B88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F577DAE1585A2B2002E5B88 /* main.m in Sources */,
+				0F577DB21585A2B2002E5B88 /* _23AppDelegate.m in Sources */,
+				0F577DC21585A2D1002E5B88 /* MyCell.m in Sources */,
+				0F577DC51585A2E1002E5B88 /* RootViewController.m in Sources */,
+				0F577DCF1585A2FE002E5B88 /* HomePageVC.m in Sources */,
+				0F577DD01585A2FE002E5B88 /* HomePageTableViewController.m in Sources */,
+				0F577DD11585A2FE002E5B88 /* MyDetailViewController.m in Sources */,
+				0F577DD21585A2FE002E5B88 /* MYSinaWeiboScrollView.m in Sources */,
+				0FBBB5F91585B99700E70108 /* MyCellData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F577DAA1585A2B2002E5B88 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F577DAB1585A2B2002E5B88 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F577DB31585A2B2002E5B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F577DB41585A2B2002E5B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F577DB61585A2B2002E5B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestSinaCell/TestSinaCell-Prefix.pch";
+				INFOPLIST_FILE = "TestSinaCell/TestSinaCell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F577DB71585A2B2002E5B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestSinaCell/TestSinaCell-Prefix.pch";
+				INFOPLIST_FILE = "TestSinaCell/TestSinaCell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F577D971585A2B1002E5B88 /* Build configuration list for PBXProject "TestSinaCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F577DB31585A2B2002E5B88 /* Debug */,
+				0F577DB41585A2B2002E5B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F577DB51585A2B2002E5B88 /* Build configuration list for PBXNativeTarget "TestSinaCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F577DB61585A2B2002E5B88 /* Debug */,
+				0F577DB71585A2B2002E5B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F577D941585A2B1002E5B88 /* Project object */;
+}
