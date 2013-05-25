@@ -27,23 +27,14 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
-        self.tabBar.hidden = YES;
+        self.tabBar.hidden = YES;//隐藏系统的TabBar
     }
     return self;
 }
 
 - (void)loadViewControllers
 {
-    /*
-     * 1. 创建若干个子视图控制器（它们是并列的关系）
-     *  1.1 创建UITabBarItem实例，赋值给相应的子视图控制器（有可能是导航控制器）
-     * 2. 创建一个数组，将已创建的子视图控制器，添加到数组中
-     * 3. 创建UITabBarController实例
-     * 4. tabBarController.viewControllers = viewControllers;
-     * 5. 添加到window的rootViewController中
-     */
-    
+       
     // 首页
     HomeViewController *vc1 = [[HomeViewController alloc] init];
     UINavigationController *homeNav = [[UINavigationController alloc] initWithRootViewController:vc1];
@@ -51,10 +42,6 @@
     UITabBarItem *homeItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemFavorites tag:1];
     vc1.tabBarItem = homeItem;
     [homeItem release];
-    /*
-     NSLog(@"vc1 barButtonItem : %p", vc1.navigationItem.leftBarButtonItem);
-     NSLog(@"vc1 tabBarItem : %p", vc1.tabBarItem);
-     */
     
     // 消息页
     MesssageViewController *vc2 = [[MesssageViewController alloc] init];
@@ -95,35 +82,33 @@
     [searchNav release];
     [setNav release];
     
-    [self setViewControllers:viewControllers animated:YES];
+    [self setViewControllers:viewControllers animated:YES];//重新定义UITabBar的View
 }
 
 - (void)loadCustomTabBarView
 {
-    /*
-     * 层次：背景（最下）、选中图片（中间）、按钮（最上）
-     */
-    
+      
     // 初始化自定义TabBar背景
-    _tabBarBG = [[UIImageView alloc] initWithFrame:CGRectMake(0, 431, 320, 49)];
-    _tabBarBG.userInteractionEnabled = YES;
-    _tabBarBG.image = [UIImage imageNamed:@"tabBar"];
-    [self.view addSubview:_tabBarBG];
+    _tabBarBG_ImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 480-49, 320, 49)];
+    _tabBarBG_ImageView.userInteractionEnabled = YES;
+    _tabBarBG_ImageView.image = [UIImage imageNamed:@"tabBar"];
+    [self.view addSubview:_tabBarBG_ImageView];
     
     // 初始化自定义选中背景
-    _selectView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 49.0/2 - 45.0/2, 53, 45)];
-    _selectView.image = [UIImage imageNamed:@"select"];
-    [_tabBarBG addSubview:_selectView];
+    _selectView_ImageView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 49.0/2 - 45.0/2, 53, 45)];
+    _selectView_ImageView.image = [UIImage imageNamed:@"select"];
+    [_tabBarBG_ImageView addSubview:_selectView_ImageView];
     
     // 初始化自定义TabBarItem -> UIButton
     float coordinateX = 0;
+    
     for (int index = 0; index < 5; index++) {
         UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
         button.tag = index;
         button.frame = CGRectMake(14+coordinateX, 49.0/2 - 20, 42, 40);
         NSString *imageName = [NSString stringWithFormat:@"%d", index+1];
         [button setBackgroundImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
-        [_tabBarBG addSubview:button];
+        [_tabBarBG_ImageView addSubview:button];
         [button addTarget:self action:@selector(changeViewController:) forControlEvents:UIControlEventTouchUpInside];
         coordinateX += 62;
     }
@@ -133,21 +118,22 @@
 {
     [super viewDidLoad];
     
-    [self loadViewControllers];
+    [self loadViewControllers];//初始化View
 
-    [self loadCustomTabBarView];
+    [self loadCustomTabBarView];//初始化底部bar
+    
+
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (void)dealloc
 {
-    [_selectView release];
-    [_tabBarBG release];
+    [_selectView_ImageView release];
+    [_tabBarBG_ImageView release];
     [super dealloc];
 }
 
@@ -155,7 +141,7 @@
 {
     [UIView beginAnimations:nil context:NULL];
     [UIView setAnimationDuration:0.34];
-    _tabBarBG.frame = CGRectMake(0, 431, 320, 49);
+    _tabBarBG_ImageView.frame = CGRectMake(0, 431, 320, 49);
     [UIView commitAnimations];
 }
 
@@ -163,7 +149,7 @@
 {
     [UIView beginAnimations:nil context:NULL];
     [UIView setAnimationDuration:0.35];
-    _tabBarBG.frame = CGRectMake(-320, 431, 320, 49);
+    _tabBarBG_ImageView.frame = CGRectMake(-320, 431, 320, 49);
     [UIView commitAnimations];
 }
 
@@ -172,7 +158,7 @@
     self.selectedIndex = button.tag;
     
     [UIView beginAnimations:nil context:NULL];
-    _selectView.frame = CGRectMake(10 + button.tag*62, 49.0/2 - 45.0/2, 53, 45);
+    _selectView_ImageView.frame = CGRectMake(10 + button.tag*62, 49.0/2 - 45.0/2, 53, 45);
     [UIView commitAnimations];
 }
 

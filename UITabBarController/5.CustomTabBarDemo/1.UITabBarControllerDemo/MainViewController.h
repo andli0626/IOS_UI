@@ -11,8 +11,8 @@
 @interface MainViewController : UITabBarController
 {
 @private
-    UIImageView *_selectView;
-    UIImageView *_tabBarBG;
+    UIImageView *_selectView_ImageView;
+    UIImageView *_tabBarBG_ImageView;
 }
 
 - (void)showTabBar;

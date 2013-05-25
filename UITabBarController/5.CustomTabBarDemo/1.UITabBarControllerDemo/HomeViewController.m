@@ -21,14 +21,12 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.title = @"首页";
-        // NSLog(@"%s", __FUNCTION__);
     }
     return self;
 }
 
 - (void)loadView
 {
-    // NSLog(@"%s", __FUNCTION__);
     UIView *view = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
     view.backgroundColor = [UIColor redColor];
     self.view = view;
@@ -44,6 +42,7 @@
     [leftItem release];
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [button setTitle:@"确认" forState:UIControlStateNormal];
     [button setFrame:CGRectMake(90, 100, 140, 40)];
     [button addTarget:self action:@selector(push) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];

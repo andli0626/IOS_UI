@@ -20,7 +20,9 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.title = @"内容";
-        self.hidesBottomBarWhenPushed = YES;
+        
+        self.hidesBottomBarWhenPushed = YES;//隐藏底部TabBar
+        
     }
     return self;
 }
