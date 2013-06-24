@@ -23,6 +23,9 @@
         
         UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
         backButton.frame = CGRectMake(0.0, 0.0, 50.0, 44.0);
+        //top_navigation_menuicon_
+        //top_navigation_back_highlighted
+        //infobutton
         [backButton setImage:[UIImage imageNamed:@"top_navigation_back.png"] forState:UIControlStateNormal];
         [backButton setImage:[UIImage imageNamed:@"top_navigation_back_highlighted.png"] forState:UIControlStateSelected];
         [backButton addTarget:self action:@selector(backAction) forControlEvents:UIControlEventTouchUpInside];
