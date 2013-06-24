@@ -25,8 +25,6 @@
 		F25517B9177843C400DD1CE7 /* top_navigation_back_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F25517B1177843C400DD1CE7 /* top_navigation_back_highlighted@2x.png */; };
 		F25517BA177843C400DD1CE7 /* top_navigation_addicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F25517B2177843C400DD1CE7 /* top_navigation_addicon@2x.png */; };
 		F25517BB177843C400DD1CE7 /* top_navigation_addicon_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F25517B3177843C400DD1CE7 /* top_navigation_addicon_highlighted@2x.png */; };
-		F25517BC177843C400DD1CE7 /* top_navigation_menuicon_highlighted@2x副本.png in Resources */ = {isa = PBXBuildFile; fileRef = F25517B4177843C400DD1CE7 /* top_navigation_menuicon_highlighted@2x副本.png */; };
-		F25517BD177843C400DD1CE7 /* top_navigation_menuicon@2x副本.png in Resources */ = {isa = PBXBuildFile; fileRef = F25517B5177843C400DD1CE7 /* top_navigation_menuicon@2x副本.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,8 +53,6 @@
 		F25517B1177843C400DD1CE7 /* top_navigation_back_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top_navigation_back_highlighted@2x.png"; sourceTree = "<group>"; };
 		F25517B2177843C400DD1CE7 /* top_navigation_addicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top_navigation_addicon@2x.png"; sourceTree = "<group>"; };
 		F25517B3177843C400DD1CE7 /* top_navigation_addicon_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top_navigation_addicon_highlighted@2x.png"; sourceTree = "<group>"; };
-		F25517B4177843C400DD1CE7 /* top_navigation_menuicon_highlighted@2x副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top_navigation_menuicon_highlighted@2x副本.png"; sourceTree = "<group>"; };
-		F25517B5177843C400DD1CE7 /* top_navigation_menuicon@2x副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top_navigation_menuicon@2x副本.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,8 +121,6 @@
 				F25517B1177843C400DD1CE7 /* top_navigation_back_highlighted@2x.png */,
 				F25517B2177843C400DD1CE7 /* top_navigation_addicon@2x.png */,
 				F25517B3177843C400DD1CE7 /* top_navigation_addicon_highlighted@2x.png */,
-				F25517B4177843C400DD1CE7 /* top_navigation_menuicon_highlighted@2x副本.png */,
-				F25517B5177843C400DD1CE7 /* top_navigation_menuicon@2x副本.png */,
 				8CF16C5316BCF4E700A6E4F0 /* 1.SimpleNavigationDemo-Info.plist */,
 				8CF16C5416BCF4E700A6E4F0 /* InfoPlist.strings */,
 				8CF16C5716BCF4E700A6E4F0 /* main.m */,
@@ -199,8 +193,6 @@
 				F25517B9177843C400DD1CE7 /* top_navigation_back_highlighted@2x.png in Resources */,
 				F25517BA177843C400DD1CE7 /* top_navigation_addicon@2x.png in Resources */,
 				F25517BB177843C400DD1CE7 /* top_navigation_addicon_highlighted@2x.png in Resources */,
-				F25517BC177843C400DD1CE7 /* top_navigation_menuicon_highlighted@2x副本.png in Resources */,
-				F25517BD177843C400DD1CE7 /* top_navigation_menuicon@2x副本.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
