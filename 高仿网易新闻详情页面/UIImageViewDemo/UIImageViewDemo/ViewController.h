@@ -13,8 +13,6 @@
 #import "GTMBase64.h"
 #import "WebServiceHelper.h"
 @interface ViewController : UIViewController<UserWebServiceDelegate>
-@property (retain, nonatomic) IBOutlet UIWebView *mWebView;
 @property (retain, nonatomic) IBOutlet UIImageView *myImageView;
-@property (retain, nonatomic) IBOutlet UIButton *button1;
--(IBAction)clickButton1:(id)sender;
+
 @end
