@@ -1,0 +1,214 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* MyWebAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {874, 442}}";
+			sepNavSelRange = "{428, 0}";
+			sepNavVisRange = "{36, 568}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* MyWeb */ = {
+		activeExec = 0;
+		executables = (
+			EA38D4BC122FF3D400DD5045 /* MyWeb */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* MyWebViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {832, 351}}";
+			sepNavSelRange = "{327, 0}";
+			sepNavVisRange = "{0, 328}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* MyWebViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {467, 442}}";
+			sepNavSelRange = "{715, 5}";
+			sepNavVisRange = "{284, 431}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = EA38D4BC122FF3D400DD5045 /* MyWeb */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* MyWeb */;
+		breakpoints = (
+			EAE13142134F000500143211 /* MyWebViewDelegate.m:5 */,
+			EAE13146134F000D00143211 /* MyWebAppDelegate.m:21 */,
+		);
+		codeSenseManager = EA38D4D5122FF3D700DD5045 /* Code sense */;
+		executables = (
+			EA38D4BC122FF3D400DD5045 /* MyWeb */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					654,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 323944659;
+			PBXWorkspaceStateSaveDate = 323944659;
+		};
+		perUserProjectItems = {
+			EAE1318A134F058E00143211 /* PBXTextBookmark */ = EAE1318A134F058E00143211 /* PBXTextBookmark */;
+			EAE13193134F091100143211 /* PBXTextBookmark */ = EAE13193134F091100143211 /* PBXTextBookmark */;
+			EAE13194134F091100143211 /* PBXTextBookmark */ = EAE13194134F091100143211 /* PBXTextBookmark */;
+			EAE131A4134F0E0B00143211 /* PBXTextBookmark */ = EAE131A4134F0E0B00143211 /* PBXTextBookmark */;
+		};
+		sourceControlManager = EA38D4D4122FF3D700DD5045 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	764C2F9E0FF04E6B00D10876 /* MyWebViewDelegate.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = MyWebViewDelegate.m;
+		path = "/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/Classes/MyWebViewDelegate.m";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {874, 353}}";
+			sepNavSelRange = "{65, 167}";
+			sepNavVisRange = "{0, 240}";
+		};
+	};
+	EA38D4BC122FF3D400DD5045 /* MyWeb */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MyWeb;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	EA38D4D4122FF3D700DD5045 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	EA38D4D5122FF3D700DD5045 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	EAE13142134F000500143211 /* MyWebViewDelegate.m:5 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 764C2F9E0FF04E6B00D10876 /* MyWebViewDelegate.m */;
+		functionName = "-webViewDidFinishLoad:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 5;
+		location = MyWeb;
+		modificationTime = 323944952.581179;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	EAE13146134F000D00143211 /* MyWebAppDelegate.m:21 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1D3623250D0F684500981E51 /* MyWebAppDelegate.m */;
+		functionName = "-applicationDidFinishLaunching:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 21;
+		location = MyWeb;
+		modificationTime = 323944953.321184;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	EAE1318A134F058E00143211 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MyWebAppDelegate.m */;
+		name = "MyWebAppDelegate.m: 21";
+		rLen = 0;
+		rLoc = 428;
+		rType = 0;
+		vrLen = 568;
+		vrLoc = 36;
+	};
+	EAE13193134F091100143211 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* MyWebViewController.h */;
+		name = "MyWebViewController.h: 14";
+		rLen = 0;
+		rLoc = 327;
+		rType = 0;
+		vrLen = 328;
+		vrLoc = 0;
+	};
+	EAE13194134F091100143211 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MyWebViewController.m */;
+		name = "MyWebViewController.m: 14";
+		rLen = 0;
+		rLoc = 241;
+		rType = 0;
+		vrLen = 559;
+		vrLoc = 0;
+	};
+	EAE131A4134F0E0B00143211 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MyWebViewController.m */;
+		name = "MyWebViewController.m: 30";
+		rLen = 26;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 650;
+		vrLoc = 70;
+	};
+}

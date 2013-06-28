@@ -21,18 +21,39 @@
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
         
+//        UILabel *titleLabel = [[UILabel alloc]init];
+//        titleLabel.text = @"上海黄浦";
+//        titleLabel.font = [UIFont fontWithName:@"Arial" size:24];
+        self.title = @"网易新闻";
+//        self.navigationController.title =titleLabel;
+        
+        //初始化左按钮
         UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
-        backButton.frame = CGRectMake(0.0, 0.0, 50.0, 44.0);
-        //top_navigation_menuicon_
-        //top_navigation_back_highlighted
-        //infobutton
-        [backButton setImage:[UIImage imageNamed:@"top_navigation_back.png"] forState:UIControlStateNormal];
-        [backButton setImage:[UIImage imageNamed:@"top_navigation_back_highlighted.png"] forState:UIControlStateSelected];
+        backButton.frame = CGRectMake(0.0, 0.0, 50, 44.0);
+        [backButton setImage:[UIImage imageNamed:@"navigation_back1.png"] forState:UIControlStateNormal];
+        [backButton setImage:[UIImage imageNamed:@"navigation_back2.png"] forState:UIControlStateSelected];
         [backButton addTarget:self action:@selector(backAction) forControlEvents:UIControlEventTouchUpInside];
-        UIBarButtonItem *temporaryBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];
-        temporaryBarButtonItem.style = UIBarButtonItemStylePlain;
-        self.navigationItem.leftBarButtonItem=temporaryBarButtonItem;
-        [temporaryBarButtonItem release];
+        //设置左按钮
+        UIBarButtonItem *leftButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];
+        leftButtonItem.style = UIBarButtonItemStylePlain;
+        self.navigationItem.leftBarButtonItem=leftButtonItem;
+        [leftButtonItem release];
+        
+        //初始化右按钮
+        UIButton *rightButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        rightButton.frame = CGRectMake(0.0, 0.0, 50.0, 44.0);
+        [rightButton setImage:[UIImage imageNamed:@"navigation_set1.png"] forState:UIControlStateNormal];
+        [rightButton setImage:[UIImage imageNamed:@"navigation_set2.png"] forState:UIControlStateSelected];
+        [rightButton addTarget:self action:@selector(backAction) forControlEvents:UIControlEventTouchUpInside];
+        //设置右按钮
+        UIBarButtonItem *rightButtonItem = [[UIBarButtonItem alloc] initWithCustomView:rightButton];
+        rightButtonItem.style = UIBarButtonItemStylePlain;
+        self.navigationItem.rightBarButtonItem=rightButtonItem;
+        [rightButtonItem release];
+
+        
+        
+        
         self.hidesBottomBarWhenPushed = YES;
     }
     return self;

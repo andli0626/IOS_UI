@@ -1,0 +1,252 @@
+TMyWeb
+v7
+r1
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/Classes/MyWebAppDelegate.h
+c000000004A4016CA00000000000001D4
+t1245714122
+s468
+i<UIKit/UIKit.h>
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/Classes/MyWebAppDelegate.m
+c000000004A4016CA0000000000000261
+t1245714122
+s609
+i"MyWebAppDelegate.h"
+i"MyWebViewController.h"
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/Classes/MyWebViewController.h
+c000000004A40179C00000000000001C0
+t1245714332
+s448
+i<UIKit/UIKit.h>
+i"MyWebViewDelegate.h"
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/Classes/MyWebViewController.m
+c000000004A40179C000000000000028D
+t1245714332
+s653
+i"MyWebViewController.h"
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/Classes/MyWebViewDelegate.h
+c000000004A4016FE000000000000006A
+t1245714174
+s106
+i<Foundation/Foundation.h>
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/Classes/MyWebViewDelegate.m
+c000000004A40182800000000000000F0
+t1245714472
+s240
+i"MyWebViewDelegate.h"
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/MainWindow.xib
+c000000004A4016CA00000000000023FF
+t1245714122
+s9215
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/MyWebViewController.xib
+c000000004A4017C80000000000002E81
+t1245714376
+s11905
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/MyWeb_Prefix.pch
+c000000004A4016CA00000000000000B3
+t1245714122
+s179
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/Debug-iphoneos/MyWeb.app
+t2
+s0
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/Debug-iphoneos/MyWeb.app.dSYM
+t2
+s0
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/Debug-iphoneos/MyWeb.app/Info.plist
+t2
+s0
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/Debug-iphoneos/MyWeb.app/MainWindow.nib
+t2
+s0
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/Debug-iphoneos/MyWeb.app/MyWeb
+t2
+s0
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/Debug-iphoneos/MyWeb.app/MyWebViewController.nib
+t2
+s0
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/Debug-iphoneos/MyWeb.app/PkgInfo
+t2
+s0
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/Debug-iphoneos/MyWeb.app/ResourceRules.plist
+t2
+s0
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/MyWeb.build/Debug-iphoneos/MyWeb.build/Objects-normal/armv6/MyWeb
+t2
+s0
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/MyWeb.build/Debug-iphoneos/MyWeb.build/Objects-normal/armv6/MyWeb.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/MyWeb.build/Debug-iphoneos/MyWeb.build/Objects-normal/armv6/MyWebAppDelegate.o
+t2
+s0
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/MyWeb.build/Debug-iphoneos/MyWeb.build/Objects-normal/armv6/MyWebViewController.o
+t2
+s0
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/MyWeb.build/Debug-iphoneos/MyWeb.build/Objects-normal/armv6/MyWebViewDelegate.o
+t2
+s0
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/MyWeb.build/Debug-iphoneos/MyWeb.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/MyWeb.build/Debug-iphoneos/MyWeb.build/Objects-normal/armv7/MyWeb
+t2
+s0
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/MyWeb.build/Debug-iphoneos/MyWeb.build/Objects-normal/armv7/MyWeb.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/MyWeb.build/Debug-iphoneos/MyWeb.build/Objects-normal/armv7/MyWebAppDelegate.o
+t2
+s0
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/MyWeb.build/Debug-iphoneos/MyWeb.build/Objects-normal/armv7/MyWebViewController.o
+t2
+s0
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/MyWeb.build/Debug-iphoneos/MyWeb.build/Objects-normal/armv7/MyWebViewDelegate.o
+t2
+s0
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/MyWeb.build/Debug-iphoneos/MyWeb.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/main.m
+c000000004A4016CA0000000000000168
+t1245714122
+s360
+i<UIKit/UIKit.h>
+
+N/var/folders/K9/K9nmyXR-H5qD78imWlbdd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyWeb_Prefix-fgoviozmudbvzkebxqowtawqhirj/MyWeb_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/K9/K9nmyXR-H5qD78imWlbdd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyWeb_Prefix-hgknymnmghyqfqgaqyxzexvxryqu/MyWeb_Prefix.pch.gch
+t2
+s0
+
+NMyWeb-Info.plist
+c000000004A4016CA000000000000038D
+t1245714122
+s909
+
+CCompileC build/MyWeb.build/Debug-iphoneos/MyWeb.build/Objects-normal/armv6/MyWebAppDelegate.o "/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/Classes/MyWebAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MyWeb.build/Debug-iphoneos/MyWeb.build/Objects-normal/armv6/MyWebViewController.o "/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/Classes/MyWebViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MyWeb.build/Debug-iphoneos/MyWeb.build/Objects-normal/armv6/MyWebViewDelegate.o "/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/Classes/MyWebViewDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MyWeb.build/Debug-iphoneos/MyWeb.build/Objects-normal/armv6/main.o "/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MyWeb.build/Debug-iphoneos/MyWeb.build/Objects-normal/armv7/MyWebAppDelegate.o "/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/Classes/MyWebAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MyWeb.build/Debug-iphoneos/MyWeb.build/Objects-normal/armv7/MyWebViewController.o "/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/Classes/MyWebViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MyWeb.build/Debug-iphoneos/MyWeb.build/Objects-normal/armv7/MyWebViewDelegate.o "/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/Classes/MyWebViewDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MyWeb.build/Debug-iphoneos/MyWeb.build/Objects-normal/armv7/main.o "/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/MyWebViewController.xib"
+r0
+
+CCpResource build/Debug-iphoneos/MyWeb.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+r0
+
+CCreateUniversalBinary "/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/Debug-iphoneos/MyWeb.app/MyWeb" normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile "/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/Debug-iphoneos/MyWeb.app.dSYM" "/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/Debug-iphoneos/MyWeb.app/MyWeb"
+r0
+
+CLd "/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/MyWeb.build/Debug-iphoneos/MyWeb.build/Objects-normal/armv6/MyWeb" normal armv6
+r0
+
+CLd "/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/MyWeb.build/Debug-iphoneos/MyWeb.build/Objects-normal/armv7/MyWeb" normal armv7
+r0
+
+CProcessInfoPlistFile "/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/Debug-iphoneos/MyWeb.app/Info.plist" MyWeb-Info.plist
+r0
+
+CProcessPCH /var/folders/K9/K9nmyXR-H5qD78imWlbdd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyWeb_Prefix-fgoviozmudbvzkebxqowtawqhirj/MyWeb_Prefix.pch.gch MyWeb_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/K9/K9nmyXR-H5qD78imWlbdd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MyWeb_Prefix-hgknymnmghyqfqgaqyxzexvxryqu/MyWeb_Prefix.pch.gch MyWeb_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/Debug-iphoneos/MyWeb.app"
+r0
+

@@ -1,0 +1,56 @@
+TMyWeb
+v7
+r1
+cCheck dependencies
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/MainWindow.xib
+c000000004A4016CA00000000000023FF
+t1245714122
+s9215
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/MyWebViewController.xib
+c000000004A4017C80000000000002E81
+t1245714376
+s11905
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/Debug/MyWeb.app
+t2
+s0
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/Debug/MyWeb.app/Contents/Info.plist
+t2
+s0
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/Debug/MyWeb.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/Debug/MyWeb.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/Debug/MyWeb.app/Contents/Resources/MyWebViewController.nib
+t2
+s0
+
+NMyWeb-Info.plist
+c000000004A4016CA000000000000038D
+t1245714122
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies323944048#323944048#0(66"[BEROR]error: There is no SDK with the name or path 'iphoneos3.0'1(4@58"error: There is no SDK with the name or path 'iphoneos3.0'323944048#18446744073709551615#0#0(1@0"0(0#1#0"8247620834010738688#0"0#
+
+CCompileXIB "/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/MyWebViewController.xib"
+r0
+
+CProcessInfoPlistFile "/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/Debug/MyWeb.app/Contents/Info.plist" MyWeb-Info.plist
+r0
+
+CTouch "/Users/tony/Documents/iPhone PPT/代码/03/MyWeb/build/Debug/MyWeb.app"
+r0
+
