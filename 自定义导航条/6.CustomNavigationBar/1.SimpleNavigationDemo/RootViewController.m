@@ -41,8 +41,56 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+#pragma 手势监听:单击还是双击
+    UITapGestureRecognizer* singleRecognizer;
+    singleRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(SingleTap:)];
+    //点击的次数
+    singleRecognizer.numberOfTapsRequired = 1; // 单击
+    
+    //给self.view添加一个手势监测；
+    
+    [self.view addGestureRecognizer:singleRecognizer];
+    
+    
+    // 双击的 Recognizer
+    UITapGestureRecognizer* doubleRecognizer;
+    doubleRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(DoubleTap:)];
+    doubleRecognizer.numberOfTapsRequired = 2; // 双击
+    
+    [self.view addGestureRecognizer:doubleRecognizer];
+    
+    // 关键在这一行，双击手势确定监测失败才会触发单击手势的相应操作
+    [singleRecognizer requireGestureRecognizerToFail:doubleRecognizer];
+    [singleRecognizer release];
+    [doubleRecognizer release];
+
 }
+
+-(void)SingleTap:(UITapGestureRecognizer*)recognizer
+{
+    //处理单击操作
+}
+
+-(void)DoubleTap:(UITapGestureRecognizer*)recognizer
+{
+    [self hiddenOrShow];
+    //处理双击操作
+    NSLog(@"2");
+}
+
+#pragma mark - Target Action
+- (void)hiddenOrShow
+{
+    if (self.navigationController.navigationBarHidden) {
+        // 显示ToolBar和NavigationBar
+        //        [self.navigationController setToolbarHidden:NO animated:YES];
+        [self.navigationController setNavigationBarHidden:NO animated:YES];
+    }else {
+        //        [self.navigationController setToolbarHidden:YES animated:YES];
+        [self.navigationController setNavigationBarHidden:YES animated:YES];
+    }
+}
+
 
 - (void)viewWillAppear:(BOOL)animated
 {
