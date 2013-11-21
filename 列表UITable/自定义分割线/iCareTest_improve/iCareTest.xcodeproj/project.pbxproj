@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A9D102C1745C92900304CC6 /* icare_iphone_lightline.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9D10251745C92900304CC6 /* icare_iphone_lightline.png */; };
+		0A9D102D1745C92900304CC6 /* icare_iphone_lightline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9D10261745C92900304CC6 /* icare_iphone_lightline@2x.png */; };
+		0A9D102E1745C92900304CC6 /* icare_iphone_lightpoint.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9D10271745C92900304CC6 /* icare_iphone_lightpoint.png */; };
+		0A9D102F1745C92900304CC6 /* icare_iphone_lightpoint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9D10281745C92900304CC6 /* icare_iphone_lightpoint@2x.png */; };
+		0AA031E61744709C00553800 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA031E51744709C00553800 /* UIKit.framework */; };
+		0AA031E81744709C00553800 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA031E71744709C00553800 /* Foundation.framework */; };
+		0AA031EA1744709C00553800 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA031E91744709C00553800 /* CoreGraphics.framework */; };
+		0AA031F01744709C00553800 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AA031EE1744709C00553800 /* InfoPlist.strings */; };
+		0AA031F21744709C00553800 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA031F11744709C00553800 /* main.m */; };
+		0AA031F61744709C00553800 /* iCareAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA031F51744709C00553800 /* iCareAppDelegate.m */; };
+		0AA031F81744709D00553800 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AA031F71744709D00553800 /* Default.png */; };
+		0AA031FA1744709D00553800 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AA031F91744709D00553800 /* Default@2x.png */; };
+		0AA031FC1744709D00553800 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AA031FB1744709D00553800 /* Default-568h@2x.png */; };
+		0AA031FF1744709D00553800 /* iCareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA031FE1744709D00553800 /* iCareViewController.m */; };
+		0AA032021744709D00553800 /* iCareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA032001744709D00553800 /* iCareViewController.xib */; };
+		0AA0320A1744790400553800 /* iCareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA032091744790400553800 /* iCareCell.m */; };
+		0AA0320C1744793200553800 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA0320B1744793200553800 /* QuartzCore.framework */; };
+		0AA0320F1744797D00553800 /* iCareCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA0320E1744797D00553800 /* iCareCellScrollView.m */; };
+		0AF712681744CCDD004063E5 /* icare_iphone_button_zhuanbo_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF7125E1744CCDD004063E5 /* icare_iphone_button_zhuanbo_down.png */; };
+		0AF712691744CCDD004063E5 /* icare_iphone_button_zhuanbo_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF7125F1744CCDD004063E5 /* icare_iphone_button_zhuanbo_down@2x.png */; };
+		0AF7126A1744CCDD004063E5 /* icare_iphone_button_zhuanbo_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF712601744CCDD004063E5 /* icare_iphone_button_zhuanbo_up.png */; };
+		0AF7126B1744CCDD004063E5 /* icare_iphone_button_zhuanbo_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF712611744CCDD004063E5 /* icare_iphone_button_zhuanbo_up@2x.png */; };
+		0AF7126C1744CCDD004063E5 /* icare_iphone_cell_button_shadowline.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF712621744CCDD004063E5 /* icare_iphone_cell_button_shadowline.png */; };
+		0AF7126D1744CCDD004063E5 /* icare_iphone_cell_button_shadowline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF712631744CCDD004063E5 /* icare_iphone_cell_button_shadowline@2x.png */; };
+		0AF7126E1744CCDD004063E5 /* icare_iphone_cell_button_spliteline.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF712641744CCDD004063E5 /* icare_iphone_cell_button_spliteline.png */; };
+		0AF7126F1744CCDD004063E5 /* icare_iphone_cell_button_spliteline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF712651744CCDD004063E5 /* icare_iphone_cell_button_spliteline@2x.png */; };
+		0AF712701744CCDD004063E5 /* icare_iphone_cell_button_upflag.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF712661744CCDD004063E5 /* icare_iphone_cell_button_upflag.png */; };
+		0AF712711744CCDD004063E5 /* icare_iphone_cell_button_upflag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF712671744CCDD004063E5 /* icare_iphone_cell_button_upflag@2x.png */; };
+		0AF712731744D095004063E5 /* list_divider_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF712721744D095004063E5 /* list_divider_line.png */; };
+		F20909AB177BCDF300BD3A78 /* list_divider_line.png in Resources */ = {isa = PBXBuildFile; fileRef = F20909AA177BCDF300BD3A78 /* list_divider_line.png */; };
+		F20909AD177BCEA200BD3A78 /* list_divider_line2.png in Resources */ = {isa = PBXBuildFile; fileRef = F20909AC177BCEA200BD3A78 /* list_divider_line2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A9D10251745C92900304CC6 /* icare_iphone_lightline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icare_iphone_lightline.png; sourceTree = "<group>"; };
+		0A9D10261745C92900304CC6 /* icare_iphone_lightline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icare_iphone_lightline@2x.png"; sourceTree = "<group>"; };
+		0A9D10271745C92900304CC6 /* icare_iphone_lightpoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icare_iphone_lightpoint.png; sourceTree = "<group>"; };
+		0A9D10281745C92900304CC6 /* icare_iphone_lightpoint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icare_iphone_lightpoint@2x.png"; sourceTree = "<group>"; };
+		0AA031E21744709C00553800 /* iCareTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCareTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA031E51744709C00553800 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0AA031E71744709C00553800 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0AA031E91744709C00553800 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0AA031ED1744709C00553800 /* iCareTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCareTest-Info.plist"; sourceTree = "<group>"; };
+		0AA031EF1744709C00553800 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AA031F11744709C00553800 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AA031F31744709C00553800 /* iCareTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCareTest-Prefix.pch"; sourceTree = "<group>"; };
+		0AA031F41744709C00553800 /* iCareAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCareAppDelegate.h; sourceTree = "<group>"; };
+		0AA031F51744709C00553800 /* iCareAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCareAppDelegate.m; sourceTree = "<group>"; };
+		0AA031F71744709D00553800 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0AA031F91744709D00553800 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0AA031FB1744709D00553800 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0AA031FD1744709D00553800 /* iCareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCareViewController.h; sourceTree = "<group>"; };
+		0AA031FE1744709D00553800 /* iCareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCareViewController.m; sourceTree = "<group>"; };
+		0AA032011744709D00553800 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iCareViewController.xib; sourceTree = "<group>"; };
+		0AA032081744790400553800 /* iCareCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCareCell.h; sourceTree = "<group>"; };
+		0AA032091744790400553800 /* iCareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCareCell.m; sourceTree = "<group>"; };
+		0AA0320B1744793200553800 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0AA0320D1744797D00553800 /* iCareCellScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCareCellScrollView.h; sourceTree = "<group>"; };
+		0AA0320E1744797D00553800 /* iCareCellScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCareCellScrollView.m; sourceTree = "<group>"; };
+		0AF7125E1744CCDD004063E5 /* icare_iphone_button_zhuanbo_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icare_iphone_button_zhuanbo_down.png; sourceTree = "<group>"; };
+		0AF7125F1744CCDD004063E5 /* icare_iphone_button_zhuanbo_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icare_iphone_button_zhuanbo_down@2x.png"; sourceTree = "<group>"; };
+		0AF712601744CCDD004063E5 /* icare_iphone_button_zhuanbo_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icare_iphone_button_zhuanbo_up.png; sourceTree = "<group>"; };
+		0AF712611744CCDD004063E5 /* icare_iphone_button_zhuanbo_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icare_iphone_button_zhuanbo_up@2x.png"; sourceTree = "<group>"; };
+		0AF712621744CCDD004063E5 /* icare_iphone_cell_button_shadowline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icare_iphone_cell_button_shadowline.png; sourceTree = "<group>"; };
+		0AF712631744CCDD004063E5 /* icare_iphone_cell_button_shadowline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icare_iphone_cell_button_shadowline@2x.png"; sourceTree = "<group>"; };
+		0AF712641744CCDD004063E5 /* icare_iphone_cell_button_spliteline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icare_iphone_cell_button_spliteline.png; sourceTree = "<group>"; };
+		0AF712651744CCDD004063E5 /* icare_iphone_cell_button_spliteline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icare_iphone_cell_button_spliteline@2x.png"; sourceTree = "<group>"; };
+		0AF712661744CCDD004063E5 /* icare_iphone_cell_button_upflag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icare_iphone_cell_button_upflag.png; sourceTree = "<group>"; };
+		0AF712671744CCDD004063E5 /* icare_iphone_cell_button_upflag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icare_iphone_cell_button_upflag@2x.png"; sourceTree = "<group>"; };
+		0AF712721744D095004063E5 /* list_divider_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_divider_line.png; sourceTree = "<group>"; };
+		F20909AA177BCDF300BD3A78 /* list_divider_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_divider_line.png; sourceTree = "<group>"; };
+		F20909AC177BCEA200BD3A78 /* list_divider_line2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_divider_line2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AA031DF1744709C00553800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA0320C1744793200553800 /* QuartzCore.framework in Frameworks */,
+				0AA031E61744709C00553800 /* UIKit.framework in Frameworks */,
+				0AA031E81744709C00553800 /* Foundation.framework in Frameworks */,
+				0AA031EA1744709C00553800 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AA031D91744709C00553800 = {
+			isa = PBXGroup;
+			children = (
+				0AA031EB1744709C00553800 /* iCareTest */,
+				0AA031E41744709C00553800 /* Frameworks */,
+				0AA031E31744709C00553800 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AA031E31744709C00553800 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AA031E21744709C00553800 /* iCareTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AA031E41744709C00553800 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AA0320B1744793200553800 /* QuartzCore.framework */,
+				0AA031E51744709C00553800 /* UIKit.framework */,
+				0AA031E71744709C00553800 /* Foundation.framework */,
+				0AA031E91744709C00553800 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AA031EB1744709C00553800 /* iCareTest */ = {
+			isa = PBXGroup;
+			children = (
+				0AF7125D1744CCDD004063E5 /* img */,
+				0AA031F41744709C00553800 /* iCareAppDelegate.h */,
+				0AA031F51744709C00553800 /* iCareAppDelegate.m */,
+				0AA031FD1744709D00553800 /* iCareViewController.h */,
+				0AA031FE1744709D00553800 /* iCareViewController.m */,
+				0AA032001744709D00553800 /* iCareViewController.xib */,
+				0AA032081744790400553800 /* iCareCell.h */,
+				0AA032091744790400553800 /* iCareCell.m */,
+				0AA0320D1744797D00553800 /* iCareCellScrollView.h */,
+				0AA0320E1744797D00553800 /* iCareCellScrollView.m */,
+				0AA031EC1744709C00553800 /* Supporting Files */,
+			);
+			path = iCareTest;
+			sourceTree = "<group>";
+		};
+		0AA031EC1744709C00553800 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AA031ED1744709C00553800 /* iCareTest-Info.plist */,
+				0AA031EE1744709C00553800 /* InfoPlist.strings */,
+				0AA031F11744709C00553800 /* main.m */,
+				0AA031F31744709C00553800 /* iCareTest-Prefix.pch */,
+				0AA031F71744709D00553800 /* Default.png */,
+				0AA031F91744709D00553800 /* Default@2x.png */,
+				0AA031FB1744709D00553800 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AF7125D1744CCDD004063E5 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				F20909AC177BCEA200BD3A78 /* list_divider_line2.png */,
+				F20909AA177BCDF300BD3A78 /* list_divider_line.png */,
+				0A9D10251745C92900304CC6 /* icare_iphone_lightline.png */,
+				0A9D10261745C92900304CC6 /* icare_iphone_lightline@2x.png */,
+				0A9D10271745C92900304CC6 /* icare_iphone_lightpoint.png */,
+				0A9D10281745C92900304CC6 /* icare_iphone_lightpoint@2x.png */,
+				0AF712721744D095004063E5 /* list_divider_line.png */,
+				0AF7125E1744CCDD004063E5 /* icare_iphone_button_zhuanbo_down.png */,
+				0AF7125F1744CCDD004063E5 /* icare_iphone_button_zhuanbo_down@2x.png */,
+				0AF712601744CCDD004063E5 /* icare_iphone_button_zhuanbo_up.png */,
+				0AF712611744CCDD004063E5 /* icare_iphone_button_zhuanbo_up@2x.png */,
+				0AF712621744CCDD004063E5 /* icare_iphone_cell_button_shadowline.png */,
+				0AF712631744CCDD004063E5 /* icare_iphone_cell_button_shadowline@2x.png */,
+				0AF712641744CCDD004063E5 /* icare_iphone_cell_button_spliteline.png */,
+				0AF712651744CCDD004063E5 /* icare_iphone_cell_button_spliteline@2x.png */,
+				0AF712661744CCDD004063E5 /* icare_iphone_cell_button_upflag.png */,
+				0AF712671744CCDD004063E5 /* icare_iphone_cell_button_upflag@2x.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AA031E11744709C00553800 /* iCareTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AA032051744709D00553800 /* Build configuration list for PBXNativeTarget "iCareTest" */;
+			buildPhases = (
+				0AA031DE1744709C00553800 /* Sources */,
+				0AA031DF1744709C00553800 /* Frameworks */,
+				0AA031E01744709C00553800 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCareTest;
+			productName = iCareTest;
+			productReference = 0AA031E21744709C00553800 /* iCareTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AA031DA1744709C00553800 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = iCare;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Kevin;
+			};
+			buildConfigurationList = 0AA031DD1744709C00553800 /* Build configuration list for PBXProject "iCareTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0AA031D91744709C00553800;
+			productRefGroup = 0AA031E31744709C00553800 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AA031E11744709C00553800 /* iCareTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AA031E01744709C00553800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA031F01744709C00553800 /* InfoPlist.strings in Resources */,
+				0AA031F81744709D00553800 /* Default.png in Resources */,
+				0AA031FA1744709D00553800 /* Default@2x.png in Resources */,
+				0AA031FC1744709D00553800 /* Default-568h@2x.png in Resources */,
+				0AA032021744709D00553800 /* iCareViewController.xib in Resources */,
+				0AF712681744CCDD004063E5 /* icare_iphone_button_zhuanbo_down.png in Resources */,
+				0AF712691744CCDD004063E5 /* icare_iphone_button_zhuanbo_down@2x.png in Resources */,
+				0AF7126A1744CCDD004063E5 /* icare_iphone_button_zhuanbo_up.png in Resources */,
+				0AF7126B1744CCDD004063E5 /* icare_iphone_button_zhuanbo_up@2x.png in Resources */,
+				0AF7126C1744CCDD004063E5 /* icare_iphone_cell_button_shadowline.png in Resources */,
+				0AF7126D1744CCDD004063E5 /* icare_iphone_cell_button_shadowline@2x.png in Resources */,
+				0AF7126E1744CCDD004063E5 /* icare_iphone_cell_button_spliteline.png in Resources */,
+				0AF7126F1744CCDD004063E5 /* icare_iphone_cell_button_spliteline@2x.png in Resources */,
+				0AF712701744CCDD004063E5 /* icare_iphone_cell_button_upflag.png in Resources */,
+				0AF712711744CCDD004063E5 /* icare_iphone_cell_button_upflag@2x.png in Resources */,
+				0AF712731744D095004063E5 /* list_divider_line.png in Resources */,
+				0A9D102C1745C92900304CC6 /* icare_iphone_lightline.png in Resources */,
+				0A9D102D1745C92900304CC6 /* icare_iphone_lightline@2x.png in Resources */,
+				0A9D102E1745C92900304CC6 /* icare_iphone_lightpoint.png in Resources */,
+				0A9D102F1745C92900304CC6 /* icare_iphone_lightpoint@2x.png in Resources */,
+				F20909AB177BCDF300BD3A78 /* list_divider_line.png in Resources */,
+				F20909AD177BCEA200BD3A78 /* list_divider_line2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AA031DE1744709C00553800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA031F21744709C00553800 /* main.m in Sources */,
+				0AA031F61744709C00553800 /* iCareAppDelegate.m in Sources */,
+				0AA031FF1744709D00553800 /* iCareViewController.m in Sources */,
+				0AA0320A1744790400553800 /* iCareCell.m in Sources */,
+				0AA0320F1744797D00553800 /* iCareCellScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0AA031EE1744709C00553800 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AA031EF1744709C00553800 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0AA032001744709D00553800 /* iCareViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AA032011744709D00553800 /* en */,
+			);
+			name = iCareViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AA032031744709D00553800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0AA032041744709D00553800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AA032061744709D00553800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCareTest/iCareTest-Prefix.pch";
+				INFOPLIST_FILE = "iCareTest/iCareTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0AA032071744709D00553800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCareTest/iCareTest-Prefix.pch";
+				INFOPLIST_FILE = "iCareTest/iCareTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AA031DD1744709C00553800 /* Build configuration list for PBXProject "iCareTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA032031744709D00553800 /* Debug */,
+				0AA032041744709D00553800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AA032051744709D00553800 /* Build configuration list for PBXNativeTarget "iCareTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA032061744709D00553800 /* Debug */,
+				0AA032071744709D00553800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AA031DA1744709C00553800 /* Project object */;
+}
