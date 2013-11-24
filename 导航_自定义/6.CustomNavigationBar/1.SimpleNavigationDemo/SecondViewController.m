@@ -98,7 +98,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
     // 单击的 Recognizer
     
     #pragma 手势监听:单击还是双击
